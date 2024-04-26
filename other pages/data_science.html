@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="../style_datascience" rel="stylesheet">
+    <title>Data Science in Footwear</title>
+</head>
+
+<body>
+  <!--NAVBAR--> 
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class=" container-fluid">
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav align-items-center me-auto mb-2 mb-md-0">
+          <li class="nav-item align-items-center">
+            <a class="nav-link "  href="../index.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+              </svg>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link "  href="./data_science.html">Ciência dos Dados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./footwear.html">Indústria do Calçado</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--PAGE CONTENT--> 
+  <div class=" content">
+     <!--Header-->
+    <div class="mx-10 my-5" >
+      <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Ciência dos dados</h1>
+          <p class="lead py-2 fs-4">
+            A ciência de dados é uma abordagem multidisciplinar que combina princípios e práticas das áreas de matemática, estatística, inteligência artificial e engenharia da computação para analisar grandes quantidades de dados. 
+            Visa a <b>extração de conhecimento</b>, <b>deteção de padrões</b> e/ou obtenção de informação para possíveis<b> tomadas de decisão</b>.
+          </p>
+        </div>
+      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded-lg-3" src="../Images_website/data.jpg" alt="image of shoes" width="720" height="650">
+       </div>
+      </div>
+    </div>
+
+    <!--Ciclo dos dados-->
+    <section id="Life Cycle">
+    <div class="container">
+      <h2 class="pb-2 border-bottom">Ciclo de Vida dos dados</h2>
+
+      <div class="row row-cols-1 row-cols-md-2 align-items-md-center">
+        <div class="col d-flex flex-column align-items-start gap-2">
+          <img src="../Images_website/ciclo.png" width="450" height="450">
+        </div>
+
+        <div class="col">
+          <div class="row row-cols-1 row-cols-sm-2 g-4">
+
+            <div class="col d-flex flex-column gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi bi-1-square-fill" viewBox="0 0 16 16">
+                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm7.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383z"/>
+              </svg>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">Recolha</h4>
+              <p class="text-body-secondary">Recolha de dados estruturados e não estruturados recorrendo a uma variedade de métodos.</p>
+            </div>
+
+            <div class="col d-flex flex-column gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi bi-2-square-fill" viewBox="0 0 16 16">
+                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm4.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306"/>
+              </svg>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">Armazenamento e processamento</h4>
+              <p class="text-body-secondary">Diferentes tipos de dados requerem diferentes sistemas de armazenamento.
+                A preparação dos dados é essencial para garantir que os mesmos têm boa qualidade.</p>
+            </div>
+
+            <div class="col d-flex flex-column gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi bi-3-square-fill" viewBox="0 0 16 16">
+                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm5.918 8.414h-.879V7.342h.838c.78 0 1.348-.522 1.342-1.237 0-.709-.563-1.195-1.348-1.195-.79 0-1.312.498-1.348 1.055H5.275c.036-1.137.95-2.115 2.625-2.121 1.594-.012 2.608.885 2.637 2.062.023 1.137-.885 1.776-1.482 1.875v.07c.703.07 1.71.64 1.734 1.917.024 1.459-1.277 2.396-2.93 2.396-1.705 0-2.707-.967-2.754-2.144H6.33c.059.597.68 1.06 1.541 1.066.973.006 1.6-.563 1.588-1.354-.006-.779-.621-1.318-1.541-1.318"/>
+              </svg>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">Análise</h4>
+              <p class="text-body-secondary">Análise exploratória dos dados para examinar viés, padrões, intervalos e distribuições
+                dos valores entre os dados.</p>
+            </div>
+
+            <div class="col d-flex flex-column gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi bi-4-square-fill" viewBox="0 0 16 16">
+                <path d="M6.225 9.281v.053H8.85V5.063h-.065c-.867 1.33-1.787 2.806-2.56 4.218"/>
+                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm5.519 5.057q.33-.527.657-1.055h1.933v5.332h1.008v1.107H10.11V12H8.85v-1.559H4.978V9.322c.77-1.427 1.656-2.847 2.542-4.265Z"/>
+              </svg>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">Comunicação</h4>
+              <p class="text-body-secondary">As informações obtidas são apresentadas na forma de relatórios e gráficos de forma clara e fácil de interpretar.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </section>
+
+    <!--Aplicações-->
+<!--     <section id="Applications">
+    <div class="container py-5" id="icon-grid">
+        <h2 class="pb-2 border-bottom">Áreas de aplicação</h2>
+    
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+          <div class="col d-flex align-items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="text-body-secondary flex-shrink-0 me-3 bi bi-hospital-fill" viewBox="0 0 16 16">
+                <path d="M6 0a1 1 0 0 0-1 1v1a1 1 0 0 0-1 1v4H1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h6v-2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5V16h6a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1h-3V3a1 1 0 0 0-1-1V1a1 1 0 0 0-1-1zm2.5 5.034v1.1l.953-.55.5.867L9 7l.953.55-.5.866-.953-.55v1.1h-1v-1.1l-.953.55-.5-.866L7 7l-.953-.55.5-.866.953.55v-1.1zM2.25 9h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 2 9.75v-.5A.25.25 0 0 1 2.25 9m0 2h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5a.25.25 0 0 1 .25-.25M2 13.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25zM13.25 9h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5a.25.25 0 0 1 .25-.25M13 11.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25zm.25 1.75h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5a.25.25 0 0 1 .25-.25"/>
+            </svg>            
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Saúde</h3>
+              <p>Auxilia na identificação e previsão de doenças, e na personalização de recomendações de saúde.</p>
+            </div>
+          </div>
+
+          <div class="col d-flex align-items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="text-body-secondary flex-shrink-0 me-3 bi bi-currency-exchange" viewBox="0 0 16 16">
+                <path d="M0 5a5 5 0 0 0 4.027 4.905 6.5 6.5 0 0 1 .544-2.073C3.695 7.536 3.132 6.864 3 5.91h-.5v-.426h.466V5.05q-.001-.07.004-.135H2.5v-.427h.511C3.236 3.24 4.213 2.5 5.681 2.5c.316 0 .59.031.819.085v.733a3.5 3.5 0 0 0-.815-.082c-.919 0-1.538.466-1.734 1.252h1.917v.427h-1.98q-.004.07-.003.147v.422h1.983v.427H3.93c.118.602.468 1.03 1.005 1.229a6.5 6.5 0 0 1 4.97-3.113A5.002 5.002 0 0 0 0 5m16 5.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0m-7.75 1.322c.069.835.746 1.485 1.964 1.562V14h.54v-.62c1.259-.086 1.996-.74 1.996-1.69 0-.865-.563-1.31-1.57-1.54l-.426-.1V8.374c.54.06.884.347.966.745h.948c-.07-.804-.779-1.433-1.914-1.502V7h-.54v.629c-1.076.103-1.808.732-1.808 1.622 0 .787.544 1.288 1.45 1.493l.358.085v1.78c-.554-.08-.92-.376-1.003-.787zm1.96-1.895c-.532-.12-.82-.364-.82-.732 0-.41.311-.719.824-.809v1.54h-.005zm.622 1.044c.645.145.943.38.943.796 0 .474-.37.8-1.02.86v-1.674z"/>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Finanças</h3>
+              <p>Permite identificar padrões nos dados que levam a muitos cenários de fraude fiscal.</p>
+            </div>
+          </div>
+
+
+          <div class="col d-flex align-items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="text-body-secondary flex-shrink-0 me-3 bi bi-cart4" viewBox="0 0 16 16">
+                <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+            </svg>            
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Retalho e comércio online</h3>
+              <p>Determinar o tempo de vida do cliente revendo as suas compras, preferências e comportamento no website da loja.</p>
+            </div>
+          </div>
+
+
+          <div class="col d-flex align-items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-body-secondary flex-shrink-0 me-3 bi bi-airplane-fill" viewBox="0 0 16 16">
+              <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849"/>
+            </svg>            
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Aviação e companhias aéreas</h3>
+              <p>Previsão de atrasos de voos e necessidade de efetuar paragens no meio da trajetória.</p>
+            </div>
+          </div>
+
+
+          <div class="col d-flex align-items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-body-secondary flex-shrink-0 me-3 bi bi-tools" viewBox="0 0 16 16">
+              <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3q0-.405-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708M3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z"/>
+            </svg>            
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Manufatura</h3>
+              <p>Paragraph of text beneath the heading to explain the heading.</p>
+            </div>
+          </div>
+
+
+          <div class="col d-flex align-items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-body-secondary flex-shrink-0 me-3 bi bi-bank2" viewBox="0 0 16 16">
+              <path d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916zM12.375 6v7h-1.25V6zm-2.5 0v7h-1.25V6zm-2.5 0v7h-1.25V6zm-2.5 0v7h-1.25V6zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2M.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1z"/>
+            </svg>            
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Governo</h3>
+              <p> Previsão de potenciais ameaças e consequências, permitindo uma reação
+                  rápida assegurando que os recursos são enviados para o local correto no tempo correto.</p>
+            </div>
+          </div>
+
+          <div class="col d-flex align-items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="text-body-secondary flex-shrink-0 me-3 bi bi-truck" viewBox="0 0 16 16">
+                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+            </svg>            
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Transporte e logística</h3>
+              <p>Melhorar performance do veículo, aprimorar documentação de estradas, trânsito, metereologia e outros fatores que afetem a viagem.</p>
+            </div>
+          </div>
+
+          <div class="col d-flex align-items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="text-body-secondary flex-shrink-0 me-3 bi bi-controller" viewBox="0 0 16 16">
+              <path d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1z"/>
+              <path d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729q.211.136.373.297c.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466s.34 1.78.364 2.606c.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527s-2.496.723-3.224 1.527c-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.3 2.3 0 0 1 .433-.335l-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a14 14 0 0 0-.748 2.295 12.4 12.4 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.4 12.4 0 0 0-.339-2.406 14 14 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27s-2.063.091-2.913.27"/>
+            </svg>            
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Jogos</h3>
+              <p>Análise do comportamento do jogador tornando-se mais dificil com o tempo.
+                Previsão do comportamento dos jogadores, melhorando os jogos e incentivando-os a gastar mais dinheiro</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>    
+ -->
+
+    <section id="Applications">
+      <div class="container px-4 py-5" id="applications">
+        <h2 class="pb-2 border-bottom">Áreas de aplicação</h2>
+    
+        <div class="row row-cols-2 row-cols-lg-4 align-items-center g-4 py-5">
+
+          <div class="col">
+            <div class="card h-100 overflow-hidden rounded-4 shadow-lg">
+              <img src="../Images_website/health.jpg" class="card_pics">
+              <div class="card_body d-flex flex-column p-4  text-white card-img-overlay" >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Saúde</h3>
+                <p>Auxilia na identificação e previsão de doenças, e na personalização de recomendações de saúde.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 overflow-hidden  rounded-4 shadow-lg">
+              <img src="../Images_website/finance.jpg" class="card_pics">
+              <div class="d-flex flex-column p-4  text-white text-shadow-2 card-img-overlay">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Finanças</h3>
+                <p>Permite identificar padrões nos dados que levam a muitos cenários de fraude fiscal.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 overflow-hidden  rounded-4 shadow-lg">
+              <img src="../Images_website/retail.jpg" class="card_pics">
+              <div class="d-flex flex-column p-4  text-white text-shadow-2 card-img-overlay">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Retalho e comércio online</h3>
+                <p>Determinar o tempo de vida do cliente revendo as suas compras, preferências e comportamento no website da loja..</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 overflow-hidden  rounded-4 shadow-lg">
+              <img src="../Images_website/aviation.jpg" class="card_pics">
+              <div class="d-flex flex-column p-4  text-white text-shadow-2 card-img-overlay">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Aviação e companhias aéreas</h3>
+                <p>Previsão de atrasos de voos e necessidade de efetuar paragens no meio da trajetória.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 overflow-hidden rounded-4 shadow-lg">
+              <img src="../Images_website/governo.jpg" class="card_pics">
+              <div class="d-flex flex-column p-4  text-white text-shadow-2 card-img-overlay">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Governo</h3>
+                <p>Previsão de potenciais ameaças e consequências, permitindo uma reação
+                  rápida assegurando que os recursos são enviados para o local correto no tempo correto.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 overflow-hidden rounded-4 shadow-lg">
+              <img src="../Images_website/transport.jpg" class="card_pics">
+              <div class="d-flex flex-column p-4  text-white text-shadow-2 card-img-overlay">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Transporte e Logística</h3>
+                <p>Melhorar performance do veículo, aprimorar documentação de estradas, 
+                  trânsito, metereologia e outros fatores que afetem a viagem.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 overflow-hidden  rounded-4 shadow-lg">
+              <img src="../Images_website/games.jpg" class="card_pics">
+              <div class="d-flex flex-column p-4  text-white text-shadow-2 card-img-overlay">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Jogos</h3>
+                <p>Análise do comportamento do jogador tornando-se mais dificil com o tempo.
+                  Previsão do comportamento dos jogadores, melhorando os jogos e incentivando-os a gastar mais dinheiro</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 overflow-hidden  rounded-4 shadow-lg">
+              <img src="../Images_website/manufatura.jpg" class="card_pics">
+              <div class="d-flex flex-column p-4  text-white text-shadow-2 card-img-overlay">
+                <h3 class="pt-5 mt-5 mb-4 display-6 fw-bold">Manufatura</h3>
+                <p>Previsão de manutenção e erros de uma máquina. Previsão de procura e controlo de inventário</p>
+              </div>
+            </div>
+          </div>
+
+
+    
+
+
+        </div>
+
+      </div>
+
+
+
+      
+    </section>
+
+
+
+
+
+
+  </div>
+
+
+
+</body>
+
+</html>

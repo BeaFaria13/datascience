@@ -1,0 +1,31 @@
+body {
+  background-image: url(./Images_website/cover.jpg);
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+
+footer{
+  position: sticky;
+  margin-top: 20%;
+  align-items: right;
+}
+
+#Title{
+  margin-top: 50px;
+}
+
+.Logos{
+  width: 140px;
+  height: 40px;
+  padding-left: 20px;
+  margin-bottom: 0px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
